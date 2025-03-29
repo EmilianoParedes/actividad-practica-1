@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulario de registro</h1>
-    <form action="/">
+    <form action="/index.html">
         <fieldset>
             <legend>Datos personales</legend>
             <label>Nombre
@@ -99,8 +99,34 @@
                     <option value="2002">2002</option>
                     <option value="2001">2001</option>
                     <option value="2000">2000</option>
+                </select>
             </label>
         </fieldset>
+
+        <fieldset>
+            <legend>¿DE DÓNDE ERES?</legend>
+            <label>Ciudad
+                <input type="text" name="ciudad" id="ciudad" required>            
+            </label>
+            <label>Código postal
+                <input type="text" name="código_postal" id="codigo_postal" required>
+            </label>
+            <label>País
+                <select name="pais" id="pais">
+                    <option value="">Pais</option>
+                    <option value="España">España</option>
+                    <option value="México">México</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+            </label>    
+        </fieldset>
     </form>
+
+       
 </body>
 </html>
