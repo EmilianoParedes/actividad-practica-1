@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Actividad Práctica</title>
 </head>
+
 <body>
     <h1>Formulario de registro</h1>
     <form action="/index.html">
         <fieldset>
             <legend>Datos personales</legend>
             <label>Nombre
-                <input type="text" name="nombre" id="nombre" required>
+                <input type="text" name="nombre" id="nombre" required />
             </label>
             <label>Apellidos
-                <input type="text" name="apellidos" id="apellidos" required>
+                <input type="text" name="apellidos" id="apellidos" required />
             </label>
             <label>Correo electrónico
-                <input type="email" name="correo" id="correo" required>
+                <input type="email" name="correo" id="correo" required />
             </label>
             <label>Fecha de nacimiento
-                <!--Opciones para los días--> 
+                <!--Opciones para los días-->
                 <select name="dia" id="dia" required>
                     <option value="">Dia</option>
                     <option value="1">1</option>
@@ -52,7 +54,7 @@
                     <option value="28">28</option>
                     <option value="29">29</option>
                     <option value="30">30</option>
-                    <option value="31">31</option>  
+                    <option value="31">31</option>
                 </select>
                 <!--Opciones para los meses-->
                 <select name="mes" id="mes">
@@ -106,10 +108,10 @@
         <fieldset>
             <legend>¿DE DÓNDE ERES?</legend>
             <label>Ciudad
-                <input type="text" name="ciudad" id="ciudad" required>            
+                <input type="text" name="ciudad" id="ciudad" required />
             </label>
             <label>Código postal
-                <input type="text" name="código_postal" id="codigo_postal" required>
+                <input type="text" name="código_postal" id="codigo_postal" required />
             </label>
             <label>País
                 <!--Opciones para los países-->
@@ -124,19 +126,19 @@
                     <option value="Venezuela">Venezuela</option>
                     <option value="Uruguay">Uruguay</option>
                 </select>
-            </label>    
+            </label>
         </fieldset>
 
         <fieldset>
             <legend>INICIAR SESIÓN</legend>
             <label>Nombre de usuario
-                <input type="text" name="usuario" id="usuario" required>
+                <input type="text" name="usuario" id="usuario" required />
             </label>
             <label>Contraseña
-                <input type="password" name="contraseña" id="contraseña" required>
+                <input type="password" name="contraseña" id="contraseña" required />
             </label>
             <label>Vuele a escribir la contraseña
-                <input type="password" name="contraseña2" id="contraseña2" required>
+                <input type="password" name="contraseña2" id="contraseña2" required />
             </label>
         </fieldset>
 
@@ -144,21 +146,21 @@
             <legend>CONDICIONES DE REGISTRO</legend>
             <p>Deseo recibir ofertas</p>
             <label>Una vez al día
-                <input type="radio" name="ofertas" id="ofertas1" value="Una vez al día">
+                <input type="radio" name="ofertas" id="ofertas1" value="Una vez al día" />
             </label>
             <label>Una vez a la semana
-                <input type="radio" name="ofertas" id="ofertas2" value="Una vez a la semana">
+                <input type="radio" name="ofertas" id="ofertas2" value="Una vez a la semana" />
             </label>
             <label>Una vez al mes
-                <input type="radio" name="ofertas" id="ofertas3" value="Una vez al mes">
+                <input type="radio" name="ofertas" id="ofertas3" value="Una vez al mes" />
             </label>
-            <label>Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies
-                <input type="checkbox" name="acepto" id="acepto" required>
+            <label>Acepto el acuerdo de servicios, la declaración de privacidad y la
+                declaración de uso de cookies
+                <input type="checkbox" name="acepto" id="acepto" required />
             </label>
         </fieldset>
         <button type="submit">Crear cuenta</button>
     </form>
-
-       
 </body>
+
 </html>
