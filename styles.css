@@ -13,3 +13,11 @@ legend, label, p{
     display: block
 }
 
+input:hover {
+    background-color: #e24545;;
+}
+
+input:focus {
+    background-color: #f0ec2d;
+    outline: none;
+}
