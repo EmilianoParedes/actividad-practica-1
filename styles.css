@@ -1,5 +1,7 @@
 h1 {
     font-family: 'Georgia', serif;
+    text-align: center;
+    font-size: 2em;
 }
 
 fieldset, button {
@@ -8,4 +10,6 @@ fieldset, button {
 
 legend, label, p{
     font-weight: bold;
+    display: block
 }
+
