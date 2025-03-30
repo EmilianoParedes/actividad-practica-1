@@ -13,6 +13,10 @@ legend, label, p{
     display: block
 }
 
+.titulos {
+    color: #0fa730;
+}
+
 input:hover {
     background-color: #e24545;;
 }
