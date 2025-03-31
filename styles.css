@@ -17,6 +17,11 @@ legend, label, p{
     color: #0fa730;
 }
 
+.border {
+    border-color: #0fa730;
+    border-radius: 40px 30px 55px 30px;
+}
+
 input:hover {
     background-color: #e24545;;
 }
