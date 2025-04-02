@@ -30,3 +30,11 @@ input:focus {
     background-color: #f0ec2d;
     outline: none;
 }
+
+button {
+    background-color: #0fa730;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
